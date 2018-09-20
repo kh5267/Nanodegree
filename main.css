@@ -1,0 +1,110 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  color: #424242;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+/*
+ *
+ * Header
+ *
+ */
+.header {
+  width: 100%;
+}
+
+.header__inner {
+  width: 95%;
+  height: 100px;
+}
+
+.header__logo {
+  height: 80px;
+  width: 100px;
+  float: left;
+  text-align: left;
+  padding: 0px;
+}
+
+.header__title {
+  font-weight: 200;
+  text-align: right;
+  margin: 0em 0em;
+  color: #212121;
+  /* height: 50px; */
+}
+
+.header__title2 {
+  text-align: right;
+  font-weight: 100;
+  margin: 0em 0em;
+  color: #212121;
+}
+
+hr { 
+  border-width: 2px;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  padding: 0px;
+  width: 90%;
+}
+
+
+
+/*
+ *
+ * Main
+ *
+ */
+
+main {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.HTML__Logo {
+  width: 100%;
+}
+
+.Work__Title {
+  font-weight: 200;
+  font-size: 3em;
+  color: gray;
+  height: 50px;
+  margin-top: .5em;
+  margin-bottom: .1em;
+  width: 100%;
+}
+
+.Projects {
+  width: 100%;
+}
+
+.Project__Title {
+  margin-top: 0;
+  text-align: center;
+}
+
+.Project__1, .Project__2, .Project__3 {
+  height: 150px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.P1__Div, .P2__Div, .P3__Div {
+  width: 33.33%;
+}
